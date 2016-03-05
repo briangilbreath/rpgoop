@@ -12,7 +12,11 @@
 		D35C42471C8A693A00B945AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C42451C8A693A00B945AA /* Main.storyboard */; };
 		D35C42491C8A693A00B945AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35C42481C8A693A00B945AA /* Assets.xcassets */; };
 		D35C424C1C8A693A00B945AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35C424A1C8A693A00B945AA /* LaunchScreen.storyboard */; };
-		D35C42541C8A694700B945AA /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C42531C8A694700B945AA /* character.swift */; };
+		D35C42541C8A694700B945AA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C42531C8A694700B945AA /* Character.swift */; };
+		D35C42561C8A6C3200B945AA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C42551C8A6C3200B945AA /* Player.swift */; };
+		D35C42581C8A6E3800B945AA /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C42571C8A6E3800B945AA /* Enemy.swift */; };
+		D35C425A1C8A70DE00B945AA /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C42591C8A70DE00B945AA /* Kimara.swift */; };
+		D35C425C1C8A726600B945AA /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C425B1C8A726600B945AA /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +27,11 @@
 		D35C42481C8A693A00B945AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35C424B1C8A693A00B945AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D35C424D1C8A693A00B945AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D35C42531C8A694700B945AA /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		D35C42531C8A694700B945AA /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		D35C42551C8A6C3200B945AA /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D35C42571C8A6E3800B945AA /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		D35C42591C8A70DE00B945AA /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		D35C425B1C8A726600B945AA /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +70,11 @@
 				D35C42481C8A693A00B945AA /* Assets.xcassets */,
 				D35C424A1C8A693A00B945AA /* LaunchScreen.storyboard */,
 				D35C424D1C8A693A00B945AA /* Info.plist */,
-				D35C42531C8A694700B945AA /* character.swift */,
+				D35C42531C8A694700B945AA /* Character.swift */,
+				D35C42551C8A6C3200B945AA /* Player.swift */,
+				D35C42571C8A6E3800B945AA /* Enemy.swift */,
+				D35C42591C8A70DE00B945AA /* Kimara.swift */,
+				D35C425B1C8A726600B945AA /* DevilWizard.swift */,
 			);
 			path = rpgoop;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35C42541C8A694700B945AA /* character.swift in Sources */,
+				D35C42561C8A6C3200B945AA /* Player.swift in Sources */,
+				D35C42581C8A6E3800B945AA /* Enemy.swift in Sources */,
+				D35C425C1C8A726600B945AA /* DevilWizard.swift in Sources */,
+				D35C425A1C8A70DE00B945AA /* Kimara.swift in Sources */,
+				D35C42541C8A694700B945AA /* Character.swift in Sources */,
 				D35C42441C8A693A00B945AA /* ViewController.swift in Sources */,
 				D35C42421C8A693A00B945AA /* AppDelegate.swift in Sources */,
 			);
